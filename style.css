@@ -1,0 +1,82 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #eaeaea
+}
+
+.bungkus {
+  width: 25%;
+  height: 250px;
+  background-color: #222;
+  border-radius: 2px;
+  color: #fff;
+  border: 1px solid #eaeaea;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.676);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bungkus:hover {
+    background-color: #2f4f4f;
+    transition: ease-in-out .5s;
+    color: aquamarine;
+}
+
+.text1 {
+  font-size: 25px;
+  font-family: "Silkscreen", sans-serif;
+  padding-top: 7px;
+  color: #eaeaeab8;
+  text-shadow: 1px 1px 2px #dededf92;
+}
+
+.git {
+  font-size: 8em;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.love {
+    font-size: 8em;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.evry {
+  font-family: "silkscreen", sans-serif;
+  padding-top: 2px;
+  font-size: 20px;
+  color: #eaeaeab8;
+  text-shadow: 1px 1px 2px #dededf92;
+}
+
+.words {
+    font-family: 'Dancing Script', cursive;
+    color: #fafad2;
+    padding-top: 2px;
+}
+
+
+
+@media screen and (max-width: 477px) {
+  .bungkus {
+    width: 65%;
+  }
+  .text1 {
+    font-size: 18px;
+  }
+}
